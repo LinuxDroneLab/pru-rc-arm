@@ -14,7 +14,6 @@
 #include <sys/poll.h>
 #include <stdint.h>
 #include <pru_rc_lib.h>
-#include <unistd.h>
 
 #define MAX_BUFFER_SIZE         512
 unsigned char readBuf[MAX_BUFFER_SIZE];
